@@ -17,7 +17,7 @@ def dictionary
 shortened_dictionary
 end
 
-def word_substituter(tweet_one, dictionary)
+def word_substituter(tweet)
 
  tweet_array = tweet.split(" ")
   dictionary_keys = dictionary.keys 
