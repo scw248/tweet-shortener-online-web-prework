@@ -43,6 +43,6 @@ end
 
 def selective_tweet_shortener(array)
   array.each do |string|
-    if string.length 
+    if string.length > 140
 end
 end
