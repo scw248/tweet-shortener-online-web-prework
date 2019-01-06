@@ -25,6 +25,8 @@ def word_substituter(tweet_one, dictionary)
  shortened_array = tweet_array.collect do |word|
     if dictionary_keys.include?(word)
       word = dictionary[word]
+    else
+      word = word
     end
   end
   shortened_array.join(" ")
