@@ -41,8 +41,7 @@ def bulk_tweet_shortener(array)
 end
 
 
-def selective_tweet_shortener(array)
-  array.each do |string|
+def selective_tweet_shortener(tweet)
     if string.length > 140
       puts word_substituter(string)
     end
